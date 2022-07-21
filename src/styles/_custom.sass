@@ -1,14 +1,28 @@
 .banner-principal-decorativo
   &-1
+    width: 50px
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    left: 10%
   &-2
+    width: 65px
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 10%
+  &-3
+    width: 65px
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    bottom: 20%
+    right: 20%
+  &-4
+    width: 180px
+    animation: scale1 2.8s ease-in-out infinite alternate
+    position: absolute
+    bottom: 10%
+    left: 10%
 
 
 @keyframes float1
@@ -17,3 +31,264 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale1
+  0%
+    transform: scale(0.9)
+
+  100%
+    transform: scale(1)
+
+// -----------------------------------------------------
+
+///// img sizes // -----------------------------------------------------
+.img30
+  width: 30px
+.img65
+  width: 65px
+.img75
+  width: 75px
+.img90
+  width: 90px
+.img115
+  width: 115px
+.img145
+  width: 145px
+.img180
+  width: 180px
+.img350
+  width: 350px
+
+.strong
+  font-weight: 600
+
+.hr_line  
+  width: 100%
+  height: 2px
+  margin: 1rem 0
+  background-color: #AFAFAF
+
+// txt utilities // -----------------------------------------------------
+
+.cstmH3
+  padding: 0.85rem
+  background: linear-gradient(0deg, rgba(208,159,64,1) 0%, rgba(253,190,65,1) 100%)
+
+.cstmH4
+  padding: 0.85rem
+  background-color: #4ADBD1
+
+.cstmH5
+  color: white !important
+  padding: 0.85rem
+  background-color: #12263F
+
+.txt--blue
+  color: #5573C6
+
+.txt--orange
+  color: $color-acento-botones !important
+
+.txt--orange02
+  color: #FF9101
+
+.cont
+  position: relative
+  & > *
+    position: relative
+
+.numb
+  position: relative
+  &::before
+    position: absolute
+    content: attr(data-number)
+    top: 0
+    left: -7%
+    color: #D7D8DB
+    font-size: 140pt
+    font-weight: 600
+    line-height: 0.5 
+
+// cajones // -----------------------------------------------------
+.cajon
+  padding: 1.5rem
+  p
+    margin-bottom: 0
+  &.cjn--yellow
+    background-color: #FFFAD8
+    &::before
+      background-color: #EFD198
+
+.bt_cstm_01
+  background-color: #EFEDED
+  &::before
+    background-color: #4ADBD1
+
+//crds // -----------------------------------------------------
+.shadow
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+.brd--top
+  border-top-left-radius: 12pt
+  border-top-right-radius: 12pt
+.brd--botom
+  border-bottom-left-radius: 12pt
+  border-bottom-right-radius: 12pt
+.brd--rad_01
+  border-radius: 9pt
+.brd--rad_02
+  border-radius: 20pt
+.top--negMargin
+  margin-top: -6rem
+
+.crd
+  height: 100%
+  position: relative
+  & > *
+    position: relative  
+  &.crd_custom_01
+    height: 100%
+    padding: 2rem
+    background-color: #F6F6F6
+    border-bottom-left-radius: 3rem
+    border-top-right-radius: 3rem
+    &::before
+      content: attr(data-number)
+      position: absolute
+      top: 50%
+      right: 5%
+      transform: translateY(-50%)
+      font-size: 120pt
+      font-weight: 700
+      color: #E2E5E8   
+
+  &.crd--avatarH
+    position: relative
+    height: 100%
+    padding: 1.5rem
+    ul
+      li
+        color: white
+    & > *
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      right: 0
+      width: calc( 100% - 80px )  
+      height: 100%
+      background: linear-gradient(0deg, rgba(44,74,155,1) 0%, rgba(85,115,198,1) 100%)
+      border-radius: 20px
+
+//custom bg // -----------------------------------------------------
+.bg--white
+  background-color: white
+.bg--mint
+  background-color: #4ADBD1
+.bg--gray
+  background: linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
+.bg--gray_02
+  background: linear-gradient(0deg, rgba(167,179,207,1) 0%, rgba(245,245,245,1) 100%)
+.bg_grad_Blue01
+  background: linear-gradient(0deg, rgba(44,74,155,1) 0%, rgba(85,115,198,1) 100%)
+
+.bg_slider_01
+  background-image: url("../assets/curso/recursos/img_slyder_01.png")
+  background-repeat: no-repeat    
+  background-position: center center
+  background-size: cover
+
+.bg_img_01, .bg_img_02, .bg_img_03, 
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -48px
+    width: calc( 100% + 96px )
+    height: 100%
+
+.bg_img_01
+  &::before
+    background-image: url("../assets/curso/recursos/img_bg_01.svg")
+    background-repeat: no-repeat    
+    background-position: top left
+.bg_img_02
+  &::before
+    background-image: url("../assets/curso/recursos/img_bg_02.svg")
+    background-repeat: no-repeat    
+    background-position: top left
+.bg_img_03
+  &::before
+    background-image: url("../assets/curso/recursos/img_bg_03.svg")
+    background-repeat: no-repeat    
+    background-position: top left
+
+.bg_gray_left 
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -48px
+    width: 100%
+    height: 80%
+    background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 85%)
+
+//// Slider F
+.cstmSlyderF
+  .horizontal-scroll__wrapper[data-v-e258dbfc]
+    padding: 2rem 0.5rem
+  .horizontal-scroll[data-v-e258dbfc]
+    align-items: stretch !important 
+
+//// Slider
+.slyder-a__bullets__item
+  background-color: #AFAFAF
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #EEAC3A
+  border: none
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #5573C6
+  background-image: url("../assets/componentes/arrow_white.svg")
+
+////// Bloque texto B custom
+.bloque-texto-g.cstm  
+  justify-content: flex-start !important
+  .bloque-texto-g__texto
+    z-index: 1
+  .bloque-texto-g__img
+    left: 50% !important
+    z-index: 0
+
+  @media (max-width: 990px)
+    .bloque-texto-g__img
+      left: 0 !important
+
+.tabla-cst
+  overflow-x: auto
+  
+////// Tablas
+.cstm_table_01  
+  thead
+    tr
+      background-color: #B0C0D2
+      th 
+        font-size: 1em
+  
+
+
+
+  
