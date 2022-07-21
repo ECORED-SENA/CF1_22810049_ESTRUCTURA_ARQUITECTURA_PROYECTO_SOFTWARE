@@ -38,7 +38,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 Aunque no es obligatorio cumplir rigurosamente con ciertas reglas o ítems, se han identificado algunas actividades que permiten de una manera incremental y efectiva capturar las necesidades del negocio, que se listan a continuación:   
 
-      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in")
+      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in")
         .row.justify-content-center(titulo="Analizar el dominio del problema")
           .col-lg-9.mb-4.mb-lg-0
             p Comprender su negocio, tener clara las necesidades y poder proponer una solución efectiva. La primera etapa del proceso, busca obtener el conocimiento suficiente del universo del discurso con el cual, el equipo comprenderá el negocio y sus necesidades, con la intención de lograr una comunicación bidireccional eficaz con los usuarios e interesados finales que no tienen conocimiento técnico y así plantear una solución adecuada y a la medida de este.

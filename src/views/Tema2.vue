@@ -7,7 +7,7 @@
         span 2
       h1 Introducción a la educción de requisitos
 
-    .bg_img_02
+    .bg_img_02.mb-5
       figure(data-aos="zoom-in")
         img(src="@/assets/curso/temas/t2/t2_01.png", alt="alt")
       .row.justify-content-center.top--negMargin(data-aos="fade").mb-5
@@ -116,6 +116,23 @@
             .col-lg-4.col-8
               figure
                 img(src='@/assets/curso/temas/t2/t2_15.svg', alt='').img350.m-auto
+
+    .cajon.cjn--yellow(data-aos="zoom-in").mb-5
+      .row  
+        .col-auto.d-none.d-lg-flex
+          figure
+            img(src="@/assets/curso/recursos/square_06.svg", alt="alt").img30
+        .col
+          p El éxito de la elicitación depende de la madurez del analista, los desarrolladores, los usuarios y el cliente involucrado. En la siguiente figura 2 se puede observar un proceso de educción de requisitos:          
+
+    .row.justify-content-center(data-aos="zoom-in")
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2.
+          span Fases de la educción de requisitos 
+        figure
+          img(src="@/assets/curso/temas/t2/t2_16.svg", alt="alt").class
+          figcaption Nota. SENA.(2022) Proceso desarrollado en la educción de requisitos.
  
              
 
