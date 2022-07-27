@@ -20,9 +20,9 @@
               figure
                 img(src="@/assets/curso/recursos/square_01.svg", alt="alt").img30
             .col
-              p.mb-0 La teoría de la arquitectura de software, se refiere a los fundamentos y componentes básicos para ejecutar procesos de computación, estos sirven para desarrollar las habilidades de los programadores al momento de construir una aplicación, permitiendo tener conceptos sobre patrones de desarrollo, abordando las teorías más importantes y utilizadas en la industria del desarrollo de <em>software</em>.
+              p.mb-0 La teoría de la arquitectura de #[em software], se refiere a los fundamentos y componentes básicos para ejecutar procesos de computación, estos sirven para desarrollar las habilidades de los programadores al momento de construir una aplicación, permitiendo tener conceptos sobre patrones de desarrollo, abordando las teorías más importantes y utilizadas en la industria del desarrollo de <em>software</em>.
           .cajon.cjn--yellow
-            p.strong En el siguiente video, se dan a conocer más detalles y generalidades relacionadas a la temática de arquitectura de software. 
+            p.strong En el siguiente video, se dan a conocer más detalles y generalidades relacionadas a la temática de arquitectura de #[em software]. 
 
       figure
         .video

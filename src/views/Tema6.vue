@@ -13,7 +13,7 @@
       .row.justify-content-center.top--negMargin.mb-5(data-aos="zoom-in")
         .col-10
           .crd.bg--gray.shadow.brd--rad_01.p-4
-            p.mb-0 #[span.txt--blue.strong La arquitectura de software es también denominada arquitectura lógica.] #[strong De acuerdo a Garlan y Shaw (1994), la arquitectura de #[i software] se refiere a la estructuración de la aplicación que generalmente se aplica al inicio del desarrollo del #[i software].] Por lo general se adopta un patrón de arquitectura o “arquetipo” existente, sin necesidad de inventar una nueva arquitectura de software, esto en función de sus ventajas e inconvenientes para cada proyecto. Las arquitecturas más utilizadas son:  
+            p.mb-0 #[span.txt--blue.strong La arquitectura de #[em software] es también denominada arquitectura lógica.] #[strong De acuerdo a Garlan y Shaw (1994), la arquitectura de #[i software] se refiere a la estructuración de la aplicación que generalmente se aplica al inicio del desarrollo del #[i software].] Por lo general se adopta un patrón de arquitectura o “arquetipo” existente, sin necesidad de inventar una nueva arquitectura de #[em software], esto en función de sus ventajas e inconvenientes para cada proyecto. Las arquitecturas más utilizadas son:  
 
       .row.mb-3(data-aos="fade")
         .col-auto
@@ -25,7 +25,7 @@
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos="fade")
             h5 Figura 5.
-            span Identificación de los stakeholders 
+            span Modelo descomposición modular 
 
           figure.mb-5(data-aos="zoom-in")
             img(src="@/assets/curso/temas/t6/t6_02.svg", alt="alt")
@@ -124,19 +124,19 @@
               ul.fa-ul.mb-0
                 li
                   i.fa-li.fas.fa-caret-right.txt--orange02
-                  | Mantenimiento complejo de los sistemas ya que implica la interacción de diferentes partes de hardware y de software, distribuidas por distintos proveedores, entorpeciendo el diagnóstico de fallas.
+                  | Mantenimiento complejo de los sistemas ya que implica la interacción de diferentes partes de #[em hardware] y de #[em software], distribuidas por distintos proveedores, entorpeciendo el diagnóstico de fallas.
                 li
                   i.fa-li.fas.fa-caret-right.txt--orange02
                   | Pocas herramientas para la administración y ajuste del desempeño de los sistemas.
                 li
                   i.fa-li.fas.fa-caret-right.txt--orange02
-                  | El desempeño o (performance), se presentan problemas por congestión en la red, dificultad de tráfico de datos.
+                  | El desempeño o (#[em performance]), se presentan problemas por congestión en la red, dificultad de tráfico de datos.
 
     .row.mb-3(data-aos="fade")
       .col-auto
         h3.cstmH3 Arquitectura de tres niveles
     
-    p.mb-5(data-aos="fade") También se la conoce como multinivel, es una arquitectura de software de aplicación correctamente establecida, que aísla las aplicaciones en tres niveles como se observa en el siguiente recurso (ver figura 7):
+    p.mb-5(data-aos="fade") También se la conoce como multinivel, es una arquitectura de #[em software] de aplicación correctamente establecida, que aísla las aplicaciones en tres niveles como se observa en el siguiente recurso (ver figura 7):
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -155,7 +155,7 @@
         ul.fa-ul.mb-0(data-aos="fade")
           li
             i.fa-li.fas.fa-check-circle.txt--orange02
-            | #[span.txt--blue.strong nivel de datos], conocido también con los nombres de nivel de base de datos, nivel de acceso a datos o backend, es donde se almacena y gestiona la información procesada por el software o aplicación, por lo general son sistemas de gestión de base de datos como  Microsoft SQL Server, MySQL, MariaDB, Oracle, PostgreSQL,  DB2, Informix  o un  servidor de bases de datos NoSQL como MongoDB, Cassandra o CouchDB.
+            | #[span.txt--blue.strong nivel de datos], conocido también con los nombres de nivel de base de datos, nivel de acceso a datos o #[em backend], es donde se almacena y gestiona la información procesada por el #[em software] o aplicación, por lo general son sistemas de gestión de base de datos como  Microsoft SQL Server, MySQL, MariaDB, Oracle, PostgreSQL,  DB2, Informix  o un  servidor de bases de datos NoSQL como MongoDB, Cassandra o CouchDB.
         .hr_line(data-aos="fade")
 
     .row.justify-content-center.mb-5
@@ -213,7 +213,7 @@
             img(src="@/assets/curso/temas/t6/t6_07.svg", alt="alt").img115.m-auto
         .col-lg-10
           .bloque-texto-a__texto.p-4
-            p.mb-0 Al inicio de la computación todos los programas eran desarrollados con este estilo arquitectónico; es solo recordar los sistemas antiguos, donde todo funcionaba en una sola computadora. #[span.strong Con la aparición de internet se hace posible consumir servicios externos, por lo que se crearon las arquitecturas modulares que permitieron separar el código en unidades de software cohesivas, fáciles de administrar y más manejables (ver figura 8)].
+            p.mb-0 Al inicio de la computación todos los programas eran desarrollados con este estilo arquitectónico; es solo recordar los sistemas antiguos, donde todo funcionaba en una sola computadora. #[span.strong Con la aparición de internet se hace posible consumir servicios externos, por lo que se crearon las arquitecturas modulares que permitieron separar el código en unidades de #[em software] cohesivas, fáciles de administrar y más manejables (ver figura 8)].
 
     .bg_img_02
       .row.justify-content-center.mb-5
@@ -224,7 +224,7 @@
 
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/t6/t6_08.svg", alt="alt")
-            figcaption.mt-3  Nota. SENA (2022). Unidades de software en la arquitectura monolítica.
+            figcaption.mt-3  Nota. SENA (2022). Unidades de #[em software] en la arquitectura monolítica.
 
       .tabla-cst 
         table.cstm_table_01.mb-5(data-aos="zoom-in")
@@ -246,6 +246,9 @@
                   li
                     i.fa-li.fas.fa-caret-right.txt--orange02
                     | Todo el sistema corre bajo una plataforma.             
+                  li
+                    i.fa-li.fas.fa-caret-right.txt--orange02
+                    | Son sitios de datos privados, cada instalación administra su propia base de datos.             
               td(style="vertical-align: top;")
                 ul.fa-ul.mb-0
                   li.mb-3
@@ -262,7 +265,7 @@
                     | Autónomo.
                   li.mb-3
                     i.fa-li.fas.fa-caret-right.txt--orange02
-                    | Performance.
+                    | #[em performance].
                   li
                     i.fa-li.fas.fa-caret-right.txt--orange02
                     | Fácil de probar.
@@ -270,7 +273,7 @@
                 ul.fa-ul.mb-0
                   li.mb-3
                     i.fa-li.fas.fa-caret-right.txt--orange02
-                    | Anclado a un Stack tecnológico.
+                    | Anclado a un #[em Stack] tecnológico.
                   li.mb-3
                     i.fa-li.fas.fa-caret-right.txt--orange02
                     | Escalado monolítico.
@@ -289,7 +292,7 @@
       .col-auto
         h3.cstmH3 Arquitectura  orientada a servicios (SOA - #[em Service Oriented Architecture])
 
-    p.mb-5(data-aos="fade") #[span.txt--blue.strong Garlan y Shaw (2011)], #[strong plantean que SOA está enfocada a los servicios disponibles, es la conexión que une las metas de negocio con la solución de software. Un servicio es una representación lógica de una actividad de negocio, está por lo general  tiene un resultado de negocio específico, como por ejemplo: comprobar estados de cuenta, obtener datos del tránsito o clima en la ciudad y comprar tkts]. El SOA, funciona como un marco de trabajo el cual permite que las empresas unan los objetivos de negocio con la infraestructura tecnológica, permitiendo integrar los datos de sistemas que se encuentran separados, ya sea por plataforma, lenguaje de programación o base de datos (ver figura 9).
+    p.mb-5(data-aos="fade") #[span.txt--blue.strong Garlan y Shaw (2011)], #[strong plantean que SOA está enfocada a los servicios disponibles, es la conexión que une las metas de negocio con la solución de #[em software]. Un servicio es una representación lógica de una actividad de negocio, está por lo general  tiene un resultado de negocio específico, como por ejemplo: comprobar estados de cuenta, obtener datos del tránsito o clima en la ciudad y comprar #[em tkts]]. El SOA, funciona como un marco de trabajo el cual permite que las empresas unan los objetivos de negocio con la infraestructura tecnológica, permitiendo integrar los datos de sistemas que se encuentran separados, ya sea por plataforma, lenguaje de programación o base de datos (ver figura 9).
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -361,7 +364,7 @@
       .col-auto
         h3.cstmH3 Arquitectura MVC (modelo vista controlador)
 
-    p.mb-5(data-aos="fade") #[span.strong Es un tipo de arquitectura de software que separa los datos de una solución de software, la interfaz de usuario, y la lógica de control en tres componentes diferentes]. Este modelo muy consolidado, ha demostrado su validez a lo largo del tiempo en todo tipo de aplicaciones y sobre muchos lenguajes y plataformas de desarrollo.  #[span.txt--blue.strong En el gráfico a continuación se pueden observar los tres componentes claves de esta arquitectura (ver figura 10)].
+    p.mb-5(data-aos="fade") #[span.strong Es un tipo de arquitectura de #[em software] que separa los datos de una solución de #[em software], la interfaz de usuario, y la lógica de control en tres componentes diferentes]. Este modelo muy consolidado, ha demostrado su validez a lo largo del tiempo en todo tipo de aplicaciones y sobre muchos lenguajes y plataformas de desarrollo.  #[span.txt--blue.strong En el gráfico a continuación se pueden observar los tres componentes claves de esta arquitectura (ver figura 10)].
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -413,7 +416,7 @@
                   | Define las reglas de negocio “cómo funciona el sistema”.
                 li.mb-3
                   i.fa-li.fas.fa-caret-right.txt--orange02
-                  | Registro el número de las vistas y controladores del sistema.            
+                  | Registra el número de las vistas y controladores del sistema.            
                 li
                   i.fa-li.fas.fa-caret-right.txt--orange02
                   | Notifica a las vistas los cambios que en los datos se producen por un agente externo, ya que es un modelo activo.         
@@ -432,7 +435,10 @@
               ul.fa-ul.mb-0
                 li.mb-3
                   i.fa-li.fas.fa-caret-right.txt--orange02
-                  | Recibir los eventos de entrada contiene reglas de gestión de eventos.              
+                  | Recibir los eventos de entrada contiene reglas de gestión de eventos.   ^
+
+    .crd--gray.p-4.mb-5
+      p.text-center.mb-0 Para ampliar la información sobre arquitectura de #[em software], consultar en el material complementario el artículo #[em "An introduction to Software"].       
 
     .bg_img_02
       .row.mb-3(data-aos="fade")
@@ -493,7 +499,7 @@
 
       .bloque-texto-g.cstm.bg--mint.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
         .bloque-texto-g__texto.p-4
-          p.mb-0 #[span.txt--blue.strong En el entorno de los programadores existe una confusión con los temas de arquitectura de software, patrones de software y estilos arquitectónicos],  como se ha mencionado antes, la arquitectura de software hace referencia a la estructura con la cual se construye una aplicación al más alto nivel, organizando todos sus componentes e inter relacionándolos entre sí; #[strong los patrones arquitectónicos son soluciones recurrentes a un problema de diseño que se presentan entre componentes y su interacción, y los estilos arquitectónicos son marcos de referzencia o estilos de trabajo que se componen de uno o más patrones arquitectónicos.]
+          p.mb-0 #[span.txt--blue.strong En el entorno de los programadores existe una confusión con los temas de arquitectura de #[em software], patrones de #[em software] y estilos arquitectónicos],  como se ha mencionado antes, la arquitectura de #[em software] hace referencia a la estructura con la cual se construye una aplicación al más alto nivel, organizando todos sus componentes e inter relacionándolos entre sí; #[strong los patrones arquitectónicos son soluciones recurrentes a un problema de diseño que se presentan entre componentes y su interacción, y los estilos arquitectónicos son marcos de referencia o estilos de trabajo que se componen de uno o más patrones arquitectónicos.]
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/t6/t6_12.jpg')})`}" 
         ) 

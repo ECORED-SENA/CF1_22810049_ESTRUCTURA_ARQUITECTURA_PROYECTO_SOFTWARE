@@ -18,9 +18,9 @@
               figure
                 img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
             .col
-              p.mb-0 Los stakeholders son las partes interesadas en el proyecto, hacen referencia a todas las personas que se relacionan con las actividades y decisiones de la empresa para la cual se hará la solución informática; estos generan un papel fundamental en la elicitacion, especificación y validación de requisitos del proyecto.
+              p.mb-0 Los #[em stakeholders] son las partes interesadas en el proyecto, hacen referencia a todas las personas que se relacionan con las actividades y decisiones de la empresa para la cual se hará la solución informática; estos generan un papel fundamental en la elicitacion, especificación y validación de requisitos del proyecto.
           .cajon.cjn--yellow
-            p.strong Los  stakeholders pueden ser internos y externos,  y se debe evaluar qué función o relación tienen con el negocio. Sin su aporte, los desarrolladores están trabajando a partir de una lista incompleta de requisitos.
+            p.strong Los  #[em stakeholders] pueden ser internos y externos,  y se debe evaluar qué función o relación tienen con el negocio. Sin su aporte, los desarrolladores están trabajando a partir de una lista incompleta de requisitos.
 
       .bloque-texto-g.cstm.bg--mint.p-3.p-sm-4.p-md-5(data-aos="zoom-in").mb-5
         .bloque-texto-g__texto.p-4
@@ -53,10 +53,10 @@
               | Quién usará o se verá afectado por el producto final.
             li
               i.fa-li.fas.fa-check-circle.txt--orange02
-              | Quién usa la herramienta actual o el software que reemplazará el nuevo software.
+              | Quién usa la herramienta actual o el #[em software] que reemplazará el nuevo #[em software].
             li
               i.fa-li.fas.fa-check-circle.txt--orange02
-              | Qué departamentos utilizan los productos del software actual y propuesto.
+              | Qué departamentos utilizan los productos del #[em software] actual y propuesto.
             li
               i.fa-li.fas.fa-check-circle.txt--orange02
               | Cómo cambiarán los flujos de trabajo.
@@ -71,7 +71,7 @@
       .col-lg-8(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
-          span Identificación de los stakeholders    
+          span Identificación de los #[em stakeholders]    
         figure
           img(src="@/assets/curso/temas/t4/t4_03.svg", alt="alt") 
           figcaption.mt-3 Nota. SENA (2022). Identificación de las partes interesadas de un proyecto.    

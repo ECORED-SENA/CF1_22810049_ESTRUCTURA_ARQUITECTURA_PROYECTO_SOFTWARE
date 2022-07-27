@@ -10,13 +10,13 @@
     .bg_gray_left.pt-4.mb-5
       .row.justify-content-center
         .col-lg-8
-          p(data-aos="fade") Las metodologías en el desarrollo de software son parámetros o modelo utilizados para estructurar, controlar y planificar el proceso de desarrollo de sistemas de información, estos sirven en cualquier ámbito y no importa el lenguaje de programación que se utilice, son de suma importancia, convirtiéndose en una hoja de ruta para llegar a la consolidación de un producto satisfactorio. 
+          p(data-aos="fade") Las metodologías en el desarrollo de #[em software] son parámetros o modelo utilizados para estructurar, controlar y planificar el proceso de desarrollo de sistemas de información, estos sirven en cualquier ámbito y no importa el lenguaje de programación que se utilice, son de suma importancia, convirtiéndose en una hoja de ruta para llegar a la consolidación de un producto satisfactorio. 
           .row.mb-5(data-aos="fade")
             .col-auto.d-none.d-lg-flex
               figure
                 img(src="@/assets/curso/recursos/square_02.svg", alt="alt").img115
             .col
-              p.txt--blue.strong.mb-0 La metodología de desarrollo de software que más se conocen por su utilidad son las ágiles y tradicionales o clásicas:
+              p.txt--blue.strong.mb-0 La metodología de desarrollo de #[em software] que más se conocen por su utilidad son las ágiles y tradicionales o clásicas:
           .row.justify-content-center
             .col-lg-6.col-8(data-aos="flip-left").mb-4.mb-lg-0
               .crd.crd_custom_01.shadow(data-number="01")
@@ -37,7 +37,7 @@
       .col-auto
         h3.cstmH3 Metodologías tradicionales o clásicas 
 
-    p(data-aos="fade").mb-5 También conocidas como modelos de proceso descriptivo, fueron creadas con el fin de mitigar el desorden del desarrollo de software, que existía cuando se empezó a producir de manera masiva en la década de los 60, según Maida y Pacienzia (2015), constituyen un mapa razonablemente eficaz para los desarrolladores, aquí se pueden encontrar algunas de estas metodologías:
+    p(data-aos="fade").mb-5 También conocidas como modelos de proceso descriptivo, fueron creadas con el fin de mitigar el desorden del desarrollo de #[em software], que existía cuando se empezó a producir de manera masiva en la década de los 60, según Maida y Pacienzia (2015), constituyen un mapa razonablemente eficaz para los desarrolladores, aquí se pueden encontrar algunas de estas metodologías:
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-8(data-aos="zoom-in").d-none.d-lg-flex
@@ -47,26 +47,30 @@
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Modelo cascada")
             .col-12
-              p También se lo conoce como ciclo de vida o secuencial, este enfoque ordena los procesos de desarrollo por etapas: análisis, diseño, codificación,  pruebas y mantenimiento.opionion.  
+              p También se lo conoce como ciclo de vida o secuencial, este enfoque ordena los procesos de desarrollo por etapas: análisis, diseño, codificación,  pruebas y mantenimiento.  
               figure
                 img(src="@/assets/curso/temas/t1/t1_05.svg", alt="alt").img180.m-auto     
                 figcaption.mt-3 SENA (2022). Fases de la metodología Cascada o Ciclo de Vida.
 
           .row(numero="2" titulo="Modelo incremental")
             .col-12
-              p.mb-0 Aquí el producto se diseña, implementa y prueba de forma incremental hasta la entrega del software. 
+              p.mb-0 Aquí el producto se diseña, implementa y prueba de forma incremental hasta la entrega del #[em software]. 
 
           .row(numero="3" titulo="Modelo evolutivo")
             .col-12
-              p.mb-0 Aquí se desarrolla un software beta el cual se va mejorando según los comentarios o requerimientos por parte de los stakeholders. 
+              p.mb-0 Aquí se desarrolla un #[em software] beta el cual se va mejorando según los comentarios o requerimientos por parte de los #[em stakeholders]. 
 
-          .row(numero="4" titulo="Modelo de desarrollo basado en componentes")
+          .row(numero="4" titulo="Modelo espiral")
+            .col-12
+              p.mb-0 como su nombre lo indica es un modelo en espiral que se integra por actividades compuestas por bucles o iteraciones. 
+
+          .row(numero="5" titulo="Modelo de desarrollo basado en componentes")
             .col-12
               p.mb-0 En este modelo se desarrollan componentes abiertos y distribuidos de forma aislada, estos pueden ser reutilizables y al final se los une para conformar un producto final.
 
     .row.mb-4(data-aos="fade")
       .col-auto
-        h4.cstmH4 Dentro de las ventajas y desventajas al utilizar metodologías tradicionales en el desarrollo de software están:
+        h4.cstmH4 Dentro de las ventajas y desventajas al utilizar metodologías tradicionales en el desarrollo de #[em software] están:
 
     .bg_img_02.mb-5
       .row.justify-content-center.mb-5
@@ -127,7 +131,7 @@
                 figure
                   img(src="@/assets/curso/recursos/square_03.svg", alt="alt").img65
               .col
-                p.strong.mb-0 Este tipo de metodologías ágiles se centra más en el software que en la documentación exhaustiva. De acuerdo con Maida y Pacienzia, (2015), la alta competitividad actual hace que los sistemas de información se tengan que desarrollar de forma rápida para adaptarse a la organización.
+                p.strong.mb-0 Este tipo de metodologías ágiles se centra más en el #[em software] que en la documentación exhaustiva. De acuerdo con Maida y Pacienzia, (2015), la alta competitividad actual hace que los sistemas de información se tengan que desarrollar de forma rápida para adaptarse a la organización.
         .col-lg-4.col-8
           figure
             img(src="@/assets/curso/temas/t1/t1_08.png", alt="alt")
@@ -141,7 +145,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h4 SCRUM
-              p Es utilizada por toda clase de empresas debido a su capacidad para proporcionar colaboración de alto nivel y eficiencia para el proyecto de software.  Scrum consta de dos métodos diferentes y se pueden usar por separado; sin embargo, sus beneficios combinados hacen que esta metodología sea de las más populares. Scrum significa incremental, lo cual permite que los equipos desarrollen proyectos por separado; a esta división de los proyectos en partes considerables se les conoce como “sprints” o proyectos rápidos. Implementa el método científico   del empirismo y reemplaza un enfoque algorítmico programado por uno heurístico.          
+              p Es utilizada por toda clase de empresas debido a su capacidad para proporcionar colaboración de alto nivel y eficiencia para el proyecto de #[em software].  Scrum consta de dos métodos diferentes y se pueden usar por separado; sin embargo, sus beneficios combinados hacen que esta metodología sea de las más populares. Scrum significa incremental, lo cual permite que los equipos desarrollen proyectos por separado; a esta división de los proyectos en partes considerables se les conoce como “#[em sprints]” o proyectos rápidos. Implementa el método científico   del empirismo y reemplaza un enfoque algorítmico programado por uno heurístico.          
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/t1/t1_09.svg', alt='')
@@ -151,7 +155,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h4 eXtreme
-              p También conocido como eXtreme Programming (XP), su objetivo es producir software de mayor calidad y mejorar la dinámica para el equipo de desarrollo, XP es la más específica de las metodologías ágiles con respecto a las prácticas de ingeniería.         
+              p También conocido como eXtreme Programming (XP), su objetivo es producir #[em software] de mayor calidad y mejorar la dinámica para el equipo de desarrollo, XP es la más específica de las metodologías ágiles con respecto a las prácticas de ingeniería.         
             .col-md-6
               figure.mb-3
                 img(src='@/assets/curso/temas/t1/t1_10.svg', alt='')
@@ -174,7 +178,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h4 Kanban
-              p Esta metodología es muy popular al momento de implementarla en el desarrollo de software ágil y de DevOps. Requiere una comunicación en tiempo real, y una total transparencia de trabajo. Los elementos de trabajo se representan visualmente en un tablero de Kanban, lo que permite al equipo ver el estado de cada proceso en cualquier momento, logrando resultados más flexibles, rápidos, un enfoque más claro y transparencia a lo largo del ciclo de desarrollo.        
+              p Esta metodología es muy popular al momento de implementarla en el desarrollo de #[em software] ágil y de DevOps. Requiere una comunicación en tiempo real, y una total transparencia de trabajo. Los elementos de trabajo se representan visualmente en un tablero de Kanban, lo que permite al equipo ver el estado de cada proceso en cualquier momento, logrando resultados más flexibles, rápidos, un enfoque más claro y transparencia a lo largo del ciclo de desarrollo.        
             .col-md-6
               figure.mb-3
                 img(src='@/assets/curso/temas/t1/t1_11.svg', alt='')
@@ -183,8 +187,8 @@
         .py-3.py-md-4(titulo="Lean Startup")
           .row
             .col-md-6.mb-4.mb-md-0
-              h4 Kanban
-              p Este enfoque tiene sus raíces en el movimiento Lean manufacturing de la década de 1980. Sin embargo, ahora se considera una parte integral de la metodología de desarrollo de software agile, que está basada en siete principios:      
+              h4 Lean Startup
+              p Este enfoque tiene sus raíces en el movimiento #[em lean manufacturing] de la década de 1980. Sin embargo, ahora se considera una parte integral de la metodología de desarrollo de #[em software agile], que está basada en siete principios:      
               ul.fa-ul
                 li
                   i.fa-li.fas.fa-caret-right.txt--orange
@@ -216,17 +220,17 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h4 DevOPs
-              p Es un enfoque de desarrollo de software por medio del cual se puede desarrollar aplicaciones de alta calidad, de manera rápida y con mayor confiabilidad. Consta de varias etapas, desarrollo continuo, integración continua, pruebas continuas, implementación continua y monitoreo continuo.        
+              p Es un enfoque de desarrollo de #[em software] por medio del cual se puede desarrollar aplicaciones de alta calidad, de manera rápida y con mayor confiabilidad. Consta de varias etapas, desarrollo continuo, integración continua, pruebas continuas, implementación continua y monitoreo continuo.        
             .col-md-6
               figure.mb-3
                 img(src='@/assets/curso/temas/t1/t1_13.svg', alt='')
                 figcaption.mt-2 Nota. Tenea. (2021). DevOps: Qué es y cómo beneficia a tu empresa.
 
-        .py-3.py-md-4(titulo="Design Thinking ")
+        .py-3.py-md-4(titulo="<em>Design Thinking</em>")
           .row
             .col-md-12.mb-4
-              h4 Design Thinking 
-              p Ayuda a los desarrolladores de software a diseñar productos que tienen más probabilidades de acoplarse con el usuario, para crear productos que satisfagan sus necesidades y requisitos más fácilmente. Los desarrolladores de software deben pensar con empatía y comprender mejor al usuario final para hacer lograr un producto óptimo. Este enfoque Design Thinking, se desarrolla en cinco pasos: empatía, definición, ideación, prototipos y prueba.        
+              h4 #[em Design Thinking] 
+              p Ayuda a los desarrolladores de #[em software] a diseñar productos que tienen más probabilidades de acoplarse con el usuario, para crear productos que satisfagan sus necesidades y requisitos más fácilmente. Los desarrolladores de #[em software] deben pensar con empatía y comprender mejor al usuario final para hacer lograr un producto óptimo. Este enfoque #[em Design Thinking], se desarrolla en cinco pasos: empatía, definición, ideación, prototipos y prueba.        
             .row.justify-content-center
               .col-auto
                 figure
@@ -260,7 +264,7 @@
 
           .crd.bg--white.brd--rad_01.shadow(x="22%" y="15%" numero="+")
             .bg--mint.shadow.brd--top.p-3
-              h5.text-center.mb-0 Design Thinking
+              h5.text-center.mb-0 #[em Design Thinking]
             .p-4
               p.mb-0 Ayuda a los desarrolladores a diseñar mejor su trabajo e integrar elementos centrados en el usuario, durante todas las etapas de desarrollo.
 
@@ -274,7 +278,7 @@
             .bg--mint.shadow.brd--top.p-3
               h5.text-center.mb-0 Lean Startup
             .p-4
-              p.mb-0 Permite conseguir mejores resultados a corto plazo, sin dejar a un lado la  calidad y la funcionalidad del producto.  
+              p.mb-0 Enfatiza en la optimización de la eficiencia y la reproducción de pérdida de tiempo en el proceso de desarrollo de #[em software]. 
 
           .crd.bg--white.brd--rad_01.shadow(x="79%" y="15%" numero="+")
             .bg--mint.shadow.brd--top.p-3

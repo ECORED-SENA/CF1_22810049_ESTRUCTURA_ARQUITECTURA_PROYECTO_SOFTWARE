@@ -9,13 +9,13 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade")
-        p Esta parte del proceso (customer requirements), tiene como objetivo principal el conocimiento del negocio del cliente, los procesos de este y el dominio de su problemática, enfocando el esfuerzo, en obtener todas las nuevas necesidades y características requeridas que el cliente considere necesarias para que el producto o servicio sea mínimamente viable frente al usuario final. 
+        p Esta parte del proceso (#[em customer requirements]), tiene como objetivo principal el conocimiento del negocio del cliente, los procesos de este y el dominio de su problemática, enfocando el esfuerzo, en obtener todas las nuevas necesidades y características requeridas que el cliente considere necesarias para que el producto o servicio sea mínimamente viable frente al usuario final. 
         .row(data-aos="fade")
           .col-auto.d-none.d-lg-flex
             figure
               img(src="@/assets/curso/recursos/square_04.svg", alt="alt").img30
           .col
-            p.mb-0 #[span.txt--blue.strong Además, como resultado de esta etapa del proceso, es imperativo que se genere  para cada requerimiento identificado su respectiva documentación en un lenguaje entendible para los involucrados en el proceso de construcción, a fin de lograr un entendimiento universal entre clientes y desarrolladores;] siendo clave, encontrar un espacio compartido donde se almacenen las versiones finales aprobadas y pactadas por ambas partes; buscando que, no existan inconformidades entre lo solicitado por el cliente y lo construido en el software, permitiendo además, que todos dentro del equipo de desarrollo puedan acceder a ellas sin dificultad o restricción alguna (ver figura 3). 
+            p.mb-0 #[span.txt--blue.strong Además, como resultado de esta etapa del proceso, es imperativo que se genere  para cada requerimiento identificado su respectiva documentación en un lenguaje entendible para los involucrados en el proceso de construcción, a fin de lograr un entendimiento universal entre clientes y desarrolladores;] siendo clave, encontrar un espacio compartido donde se almacenen las versiones finales aprobadas y pactadas por ambas partes; buscando que, no existan inconformidades entre lo solicitado por el cliente y lo construido en el #[em software], permitiendo además, que todos dentro del equipo de desarrollo puedan acceder a ellas sin dificultad o restricción alguna (ver figura 3). 
       .col-lg-4.col-8(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t3/t3_01.svg", alt="alt")

@@ -14,14 +14,14 @@
             img(src="@/assets/curso/temas/t5/t5_01.svg", alt="alt")
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p.mb-0 #[span.txt--blue.strong Según Sommeville (2005)], requerimiento son las necesidades que provienen del negocio de parte de los usuarios y stakeholders. Un requisito son las especificaciones puntuales sobre el sistema o software, que dan una solución específica a las necesidades o carencias del negocio. #[span.strong Los dos tipos de requerimientos son:] 
+            p.mb-0 #[span.txt--blue.strong Según Sommeville (2005)], requerimiento son las necesidades que provienen del negocio de parte de los usuarios y #[em stakeholders]. Un requisito son las especificaciones puntuales sobre el sistema o #[em software], que dan una solución específica a las necesidades o carencias del negocio. #[span.strong Los dos tipos de requerimientos son:] 
     
     .bg_img_02.mb-5
       .row.mb-3(data-aos="fade")
         .col-auto
           h3.cstmH3 Requerimientos funcionales (RF)
 
-      p.mb-5(data-aos="fade") Describen la actividad que la aplicación debe realizar, como el comportamiento o funciones particulares. Son las características que tendrá la solución de software que pueden dividirse en dos partes:
+      p.mb-5(data-aos="fade") Describen la actividad que la aplicación debe realizar, como el comportamiento o funciones particulares. Son las características que tendrá la solución de #[em software] que pueden dividirse en dos partes:
 
       .row.justify-content-center.mb-5
         .col-lg-6.mb-4.mb-lg-0(data-aos="flip-left")
@@ -83,7 +83,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8 
-        p.mb-4(data-aos="fade") Son los encargados de que la solución de software cumpla con su fin o dé cumplimiento al objetivo de la aplicación o solución de informática. También se les conoce como restricciones o requisitos de calidad; estos requerimientos no pueden ser vistos ni tocados por el usuario, están inmersos en las funciones de la programación y se dividen en tres partes:
+        p.mb-4(data-aos="fade") Son los encargados de que la solución de #[em software] cumpla con su fin o dé cumplimiento al objetivo de la aplicación o solución de informática. También se les conoce como restricciones o requisitos de calidad; estos requerimientos no pueden ser vistos ni tocados por el usuario, están inmersos en las funciones de la programación y se dividen en tres partes:
         .row.justify-content-center
           .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="flip-left")
             .crd.bg--gray_02.brd--rad_01.p-4
@@ -132,7 +132,7 @@
           .hr_line
           li
             i.fa-li.fas.fa-check-circle.txt--orange02
-            | Cualidades relacionadas con la evolución del sistema, como, comprobación, extensibilidad, escalabilidad y mantenibilidad, las cuales están inmersas en la estructura del sistema de software.
+            | Cualidades relacionadas con la evolución del sistema, como, comprobación, extensibilidad, escalabilidad y mantenibilidad, las cuales están inmersas en la estructura del sistema de #[em software].
           .hr_line
       
 

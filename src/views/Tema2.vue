@@ -13,7 +13,7 @@
       .row.justify-content-center.top--negMargin(data-aos="fade").mb-5
         .col-10
           .crd.bg--gray.shadow.brd--rad_01.p-4
-            p.mb-0 #[span.txt--blue.strong Maida y Pacienzia (2015)] plantean que la educción de requisitos también conocida como elicitation, consiste en hallar e identificar los requisitos que deben satisfacer una aplicación o software, en palabras sencillas es el modo en que se deben obtener estos requisitos. Es una actividad inherente a la ingeniería de software y forma parte de las metodologías ágiles, como una antesala al análisis de requisitos. Algunos procesos para la identificación de requisitos son:         
+            p.mb-0 #[span.txt--blue.strong Maida y Pacienzia (2015)] plantean que la educción de requisitos también conocida como #[em elicitation], consiste en hallar e identificar los requisitos que deben satisfacer una aplicación o #[em software], en palabras sencillas es el modo en que se deben obtener estos requisitos. Es una actividad inherente a la ingeniería de #[em software] y forma parte de las metodologías ágiles, como una antesala al análisis de requisitos. Algunos procesos para la identificación de requisitos son:         
 
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-4.col-8(data-aos="zoom-in").d-none.d-lg-flex
@@ -63,7 +63,7 @@
 
       .row.mb-3(data-aos="fade")
         .col-auto
-          h5.cstmH5 La aplicación de las metodologías ágiles también tiene unas ventajas y desventajas:
+          h5.cstmH5 Los métodos más utilizados para obtener requisitos son:
 
       .crd.bg_slider_01.brd--rad_02.p-4(data-aos="zoom-in")
         SlyderA(tipo="b")
@@ -72,7 +72,7 @@
               .cont
                 .numb(data-number="01")
                 h4 Entrevista
-                p El objetivo de realizar una entrevista es comprender las expectativas del cliente con respecto a la solución de software. Es imposible entrevistar a todas los stakeholders, por lo que los representantes de los grupos se seleccionan en función de su experiencia y credibilidad; las entrevistas pueden ser abiertas o estructuradas.         
+                p El objetivo de realizar una entrevista es comprender las expectativas del cliente con respecto a la solución de #[em software]. Es imposible entrevistar a todas los #[em stakeholders], por lo que los representantes de los grupos se seleccionan en función de su experiencia y credibilidad; las entrevistas pueden ser abiertas o estructuradas.         
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/t2/t2_11.svg', alt='').img350.m-auto

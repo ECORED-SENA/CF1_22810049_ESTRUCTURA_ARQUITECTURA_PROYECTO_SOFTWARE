@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Introducción a la arquitectura de <em>software<em>.',
+    componenteFormativo: 'Introducción a la arquitectura de <em>software<em>',
     descripcionCurso: 'BREVE DESCRIPCIÓN (No está en el documento de word)',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
@@ -125,14 +125,14 @@ export default {
     {
       tema: 'Conocimientos en Metodologías de desarrollo de <em>Software</em>',
       referencia:
-        'Rivas, C. I., Corona, V. P., Gutiérrez, J. F., & Hernández, L. (2015). Metodologías actuales de desarrollo de software. <em>Revista de Tecnología e Innovación, 2(5), 980-986.</em> ',
+        'Rivas, C. I., Corona, V. P., Gutiérrez, J. F., & Hernández, L. (2015). Metodologías actuales de desarrollo de <em>software</em>. <em>Revista de Tecnología e Innovación, 2(5), 980-986.</em> ',
       tipo: 'Articulo web',
       descarga: '/downloads/Tecnologia_e_Innovacion_Vol2_Num5_6.pdf',
     },
     {
       tema: 'Definir el tipo de arquitectura.',
       referencia:
-        'Garlan, D., & Shaw, M. (1994). An Introduction to Software Architecture. School of Computer Science, Carnegie Mellon University.',
+        'Garlan, D., & Shaw, M. (1994). An Introduction to <em>software</em> Architecture. School of Computer Science, Carnegie Mellon University.',
       tipo: 'Articulo web',
       descarga: '/downloads/intro_softarch.pdf',
     },
@@ -140,12 +140,17 @@ export default {
   glosario: [
     {
       termino: 'Arquetipos',
-      significado: 'Son patrones arquitectónicos en software.',
+      significado: 'Son patrones arquitectónicos en <em>software</em>.',
     },
     {
       termino: 'Artefactos',
       significado:
         'Un artefacto es la especificación de un componente físico de información que es usado o producido por un proceso de desarrollo de <em>software.</em>',
+    },
+    {
+      termino: 'Stakeholders',
+      significado:
+        'Traducido al español como "grupos de interés" o "partes interesadas", son las personas, grupos u organizaciones que se ven afectadas por las acciones y decisiones de una empresa. Para identificarlos, es fundamental la realización de un mapeo.',
     },
     {
       termino: 'Requerimientos',
@@ -165,7 +170,7 @@ export default {
     },
     {
       referencia:
-        'Garlan, D., & Shaw, M. (1994). An Introduction to Software Architecture. School of Computer Science, Carnegie Mellon University.',
+        'Garlan, D., & Shaw, M. (1994). An Introduction to <em>software</em> Architecture. School of Computer Science, Carnegie Mellon University.',
       link: 'http://sunnyday.mit.edu/16.355/intro_softarch.pdf ',
     },
     {
@@ -175,7 +180,7 @@ export default {
     },
     {
       referencia:
-        'Maida, EG, Pacienzia, J. (2015). Metodologías de desarrollo de software. Tesis de Licenciatura en Sistemas y Computación. Facultad de Química e Ingeniería “Fray Rogelio Bacon”. Universidad Católica Argentina.',
+        'Maida, EG, Pacienzia, J. (2015). Metodologías de desarrollo de <em>software</em>. Tesis de Licenciatura en Sistemas y Computación. Facultad de Química e Ingeniería “Fray Rogelio Bacon”. Universidad Católica Argentina.',
       link: 'https://repositorio.uca.edu.ar/handle/123456789/522',
     },
     {
@@ -191,13 +196,13 @@ export default {
     },
     {
       referencia:
-        'Rivas, C. I., Corona, V. P., Gutiérrez, J. F., & Hernández, L. (2015). Metodologías actuales de desarrollo de software. Revista de Tecnología e Innovación, 2(5), 980-986.',
+        'Rivas, C. I., Corona, V. P., Gutiérrez, J. F., & Hernández, L. (2015). Metodologías actuales de desarrollo de <em>software</em>. Revista de Tecnología e Innovación, 2(5), 980-986.',
       link:
         'https://www.ecorfan.org/bolivia/researchjournals/Tecnologia_e_innovacion/vol2num5/Tecnologia_e_Innovacion_Vol2_Num5_6.pdf',
     },
     {
       referencia:
-        'Sommerville, I. (2005). Ingeniería del software. Pearson educación.',
+        'Sommerville, I. (2005). Ingeniería del <em>software</em>. Pearson educación.',
       link: '',
     },
     {
@@ -229,7 +234,7 @@ export default {
       },
       {
         nombre: 'Luz Aída Quintero Velásquez',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
