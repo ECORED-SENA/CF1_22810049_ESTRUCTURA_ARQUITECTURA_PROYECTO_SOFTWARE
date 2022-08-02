@@ -243,7 +243,7 @@
                   li.mb-3
                     i.fa-li.fas.fa-caret-right.txt--orange02
                     | Realizan todas las operaciones para finiquitar una tarea.
-                  li
+                  li.mb-3
                     i.fa-li.fas.fa-caret-right.txt--orange02
                     | Todo el sistema corre bajo una plataforma.             
                   li

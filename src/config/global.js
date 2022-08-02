@@ -1,7 +1,8 @@
 export default {
   global: {
     componenteFormativo: 'Introducción a la arquitectura de <em>software<em>',
-    descripcionCurso: 'BREVE DESCRIPCIÓN (No está en el documento de word)',
+    descripcionCurso:
+      'Para dar inicio con la arquitectura de software, es necesario conocer los conceptos y fundamentos en los cuales se desarrolla esta metodología, ya que, a partir de esto podemos entender su funcionamiento y bases lógicas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -148,7 +149,7 @@ export default {
         'Un artefacto es la especificación de un componente físico de información que es usado o producido por un proceso de desarrollo de <em>software.</em>',
     },
     {
-      termino: 'Stakeholders',
+      termino: '<em>Stakeholders</em>',
       significado:
         'Traducido al español como "grupos de interés" o "partes interesadas", son las personas, grupos u organizaciones que se ven afectadas por las acciones y decisiones de una empresa. Para identificarlos, es fundamental la realización de un mapeo.',
     },
@@ -274,7 +275,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '---',
+        nombre: 'Yuly Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

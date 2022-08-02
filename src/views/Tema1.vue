@@ -62,7 +62,7 @@
 
           .row(numero="4" titulo="Modelo espiral")
             .col-12
-              p.mb-0 como su nombre lo indica es un modelo en espiral que se integra por actividades compuestas por bucles o iteraciones. 
+              p.mb-0 Como su nombre lo indica es un modelo en espiral que se integra por actividades compuestas por bucles o iteraciones. 
 
           .row(numero="5" titulo="Modelo de desarrollo basado en componentes")
             .col-12
