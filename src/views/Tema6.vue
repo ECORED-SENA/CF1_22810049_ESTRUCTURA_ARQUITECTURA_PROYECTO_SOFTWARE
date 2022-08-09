@@ -136,7 +136,11 @@
       .col-auto
         h3.cstmH3 Arquitectura de tres niveles
     
-    p.mb-5(data-aos="fade") También se la conoce como multinivel, es una arquitectura de #[em software] de aplicación correctamente establecida, que aísla las aplicaciones en tres niveles como se observa en el siguiente recurso (ver figura 7):
+    p.mb-5(data-aos="fade") También se la conoce como multinivel, es una arquitectura de #[em software] de aplicación correctamente establecida, que aísla las aplicaciones en tres niveles como se observa en el siguiente recurso:
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Y9a9__7QEfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -213,13 +217,13 @@
             img(src="@/assets/curso/temas/t6/t6_07.svg", alt="alt").img115.m-auto
         .col-lg-10
           .bloque-texto-a__texto.p-4
-            p.mb-0 Al inicio de la computación todos los programas eran desarrollados con este estilo arquitectónico; es solo recordar los sistemas antiguos, donde todo funcionaba en una sola computadora. #[span.strong Con la aparición de internet se hace posible consumir servicios externos, por lo que se crearon las arquitecturas modulares que permitieron separar el código en unidades de #[em software] cohesivas, fáciles de administrar y más manejables (ver figura 8)].
+            p.mb-0 Al inicio de la computación todos los programas eran desarrollados con este estilo arquitectónico; es solo recordar los sistemas antiguos, donde todo funcionaba en una sola computadora. #[span.strong Con la aparición de internet se hace posible consumir servicios externos, por lo que se crearon las arquitecturas modulares que permitieron separar el código en unidades de #[em software] cohesivas, fáciles de administrar y más manejables (ver figura 7)].
 
     .bg_img_02
       .row.justify-content-center.mb-5
         .col-lg-5.col-8
           .titulo-sexto.color-acento-contenido(data-aos="fade")
-            h5 Figura 8.
+            h5 Figura 7.
             span Arquitectura Monolítica
 
           figure(data-aos="zoom-in")
@@ -292,12 +296,12 @@
       .col-auto
         h3.cstmH3 Arquitectura  orientada a servicios (SOA - #[em Service Oriented Architecture])
 
-    p.mb-5(data-aos="fade") #[span.txt--blue.strong Garlan y Shaw (2011)], #[strong plantean que SOA está enfocada a los servicios disponibles, es la conexión que une las metas de negocio con la solución de #[em software]. Un servicio es una representación lógica de una actividad de negocio, está por lo general  tiene un resultado de negocio específico, como por ejemplo: comprobar estados de cuenta, obtener datos del tránsito o clima en la ciudad y comprar #[em tkts]]. El SOA, funciona como un marco de trabajo el cual permite que las empresas unan los objetivos de negocio con la infraestructura tecnológica, permitiendo integrar los datos de sistemas que se encuentran separados, ya sea por plataforma, lenguaje de programación o base de datos (ver figura 9).
+    p.mb-5(data-aos="fade") #[span.txt--blue.strong Garlan y Shaw (2011)], #[strong plantean que SOA está enfocada a los servicios disponibles, es la conexión que une las metas de negocio con la solución de #[em software]. Un servicio es una representación lógica de una actividad de negocio, está por lo general  tiene un resultado de negocio específico, como por ejemplo: comprobar estados de cuenta, obtener datos del tránsito o clima en la ciudad y comprar #[em tkts]]. El SOA, funciona como un marco de trabajo el cual permite que las empresas unan los objetivos de negocio con la infraestructura tecnológica, permitiendo integrar los datos de sistemas que se encuentran separados, ya sea por plataforma, lenguaje de programación o base de datos (ver figura 8).
 
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade")
-          h5 Figura 9.
+          h5 Figura 8.
           span Características de la Arquitectura SOA   
 
         figure(data-aos="zoom-in")
@@ -364,12 +368,12 @@
       .col-auto
         h3.cstmH3 Arquitectura MVC (modelo vista controlador)
 
-    p.mb-5(data-aos="fade") #[span.strong Es un tipo de arquitectura de #[em software] que separa los datos de una solución de #[em software], la interfaz de usuario, y la lógica de control en tres componentes diferentes]. Este modelo muy consolidado, ha demostrado su validez a lo largo del tiempo en todo tipo de aplicaciones y sobre muchos lenguajes y plataformas de desarrollo.  #[span.txt--blue.strong En el gráfico a continuación se pueden observar los tres componentes claves de esta arquitectura (ver figura 10)].
+    p.mb-5(data-aos="fade") #[span.strong Es un tipo de arquitectura de #[em software] que separa los datos de una solución de #[em software], la interfaz de usuario, y la lógica de control en tres componentes diferentes]. Este modelo muy consolidado, ha demostrado su validez a lo largo del tiempo en todo tipo de aplicaciones y sobre muchos lenguajes y plataformas de desarrollo.  #[span.txt--blue.strong En el gráfico a continuación se pueden observar los tres componentes claves de esta arquitectura (ver figura 9)].
 
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade")
-          h5 Figura 10.
+          h5 Figura 9.
           span Arquitectura MVC
 
         ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
