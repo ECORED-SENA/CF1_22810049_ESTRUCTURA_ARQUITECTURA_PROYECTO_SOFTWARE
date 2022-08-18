@@ -20,7 +20,7 @@
           figure
             img(src="@/assets/curso/temas/t2/t2_02.png", alt="alt")
         .col-lg-8(data-aos="fade")
-          SlyderF.cstmSlyderF(columnas="col-lg-6 col-xl-4")
+          SlyderF.cstmSlyderF_02(columnas="col-lg-6 col-xl-4")
             .crd.bg--white.brd--rad_02.shadow.p-4
               .numb_02(data-nb="01")
               figure.mb-4
