@@ -26,7 +26,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 Es probable que surjan necesidades sorpresa durante el desarrollo; estas adiciones repentinas provocan un aumento del alcance, donde el proyecto aumenta más allá de sus límites establecidos y los requisitos iniciales de tiempo y presupuesto se ven obligados a estirarse para cubrir los nuevos requisitos. Eso no siempre es posible, es mucho más probable que haya que eliminar algunas características para cumplir con los plazos.
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/t3/t3_03.jpg')})`}" 
+          :style="{'background-image': `url(${require('@/assets/curso/temas/t4/t4_04.jpg')})`}" 
         )
 
       p.strong(data-aos="fade") Para definir las partes interesadas (ver figura 4) se debe tener en cuenta los siguientes conceptos:
@@ -69,7 +69,7 @@
 
     .row.justify-content-center
       .col-lg-8(data-aos="zoom-in")
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-botones
           h5 Figura 4.
           span Identificación de los #[em stakeholders]    
         figure

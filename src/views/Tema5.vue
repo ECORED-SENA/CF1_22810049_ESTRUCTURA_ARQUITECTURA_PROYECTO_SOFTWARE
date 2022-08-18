@@ -49,28 +49,28 @@
           ul.fa-ul.mb-0
             li
               i.fa-li.fas.fa-check-circle.txt--orange02
-              | Describe los datos a ser ingresados en el sistema.
+              | #[strong Describe los datos a ser ingresados en el sistema.]
           .hr_line
           ul.fa-ul.mb-0
             li
               i.fa-li.fas.fa-check-circle.txt--orange02
-              | Describe las operaciones que se realizarán por cada pantalla.
+              | #[strong Describe las operaciones que se realizarán por cada pantalla.]
           .hr_line
           ul.fa-ul.mb-0
             li
               i.fa-li.fas.fa-check-circle.txt--orange02
-              | Describen los flujos de trabajo realizados por el sistema.
+              | #[strong Describen los flujos de trabajo realizados por el sistema.]
           .hr_line
           ul.fa-ul.mb-0
             li
               i.fa-li.fas.fa-check-circle.txt--orange02
-              | Descripción de los reportes del sistema y otras salidas.
+              | #[strong Descripción de los reportes del sistema y otras salidas.]
           .hr_line
           ul.fa-ul.mb-0
             li
               i.fa-li.fas.fa-check-circle.txt--orange02
-              | Define quién puede ingresar datos en el sistema.
-          .hr_line
+              | #[strong Define quién puede ingresar datos en el sistema.]
+          
 
         .col-lg-6(data-aos="flip-left")
           figure

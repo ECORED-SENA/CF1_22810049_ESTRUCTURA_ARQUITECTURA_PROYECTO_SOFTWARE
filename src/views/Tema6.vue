@@ -11,7 +11,7 @@
       figure(data-aos="zoom-in")
         img(src="@/assets/curso/temas/t6/t6_01.png", alt="alt")
       .row.justify-content-center.top--negMargin.mb-5(data-aos="zoom-in")
-        .col-10
+        .col-lg-10
           .crd.bg--gray.shadow.brd--rad_01.p-4
             p.mb-0 #[span.txt--blue.strong La arquitectura de #[em software] es también denominada arquitectura lógica.] #[strong De acuerdo a Garlan y Shaw (1994), la arquitectura de #[i software] se refiere a la estructuración de la aplicación que generalmente se aplica al inicio del desarrollo del #[i software].] Por lo general se adopta un patrón de arquitectura o “arquetipo” existente, sin necesidad de inventar una nueva arquitectura de #[em software], esto en función de sus ventajas e inconvenientes para cada proyecto. Las arquitecturas más utilizadas son:  
 
@@ -23,7 +23,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-8
-          .titulo-sexto.color-acento-contenido(data-aos="fade")
+          .titulo-sexto.color-acento-botones(data-aos="fade")
             h5 Figura 5.
             span Modelo descomposición modular 
 
@@ -85,7 +85,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        .titulo-sexto.color-acento-contenido(data-aos="fade")
+        .titulo-sexto.color-acento-botones(data-aos="fade")
           h5 Figura 6.
           span Arquitectura cliente servidor
 
@@ -140,7 +140,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Y9a9__7QEfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Y9a9__7QEfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)           
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -148,19 +148,19 @@
       .col-lg-7
         ul.fa-ul.mb-0(data-aos="fade")
           li
-            i.fa-li.fas.fa-check-circle.txt--orange02
+            i.fa-li.fas.fa-check-circle.txt--mint
             | #[span.txt--blue.strong El nivel de presentación usuarios] hace referencia a la interfaz de usuario por medio de la cual el usuario final interactúa con la aplicación, su función específica es mostrar datos al usuario y recopilar datos de este, por lo general se desarrollan en los lenguajes de programación HTML, CSS y JavaScript.
         .hr_line(data-aos="fade")
         ul.fa-ul.mb-0(data-aos="fade")
           li
-            i.fa-li.fas.fa-check-circle.txt--orange02
+            i.fa-li.fas.fa-check-circle.txt--mint
             | #[span.txt--blue.strong El nivel de aplicación o negocios], también conocido  como nivel lógico o medio. Es la parte medular de la aplicación que procesa la información recopilada en el nivel de presentación, aquí también puede añadir, suprimir o modificar datos en el nivel de datos, se desarrolla utilizando Python, Java, Perl, PHP o Ruby, y se comunica con el nivel de datos mediante llamadas a las API.
         .hr_line(data-aos="fade")
         ul.fa-ul.mb-0(data-aos="fade")
           li
-            i.fa-li.fas.fa-check-circle.txt--orange02
+            i.fa-li.fas.fa-check-circle.txt--mint
             | #[span.txt--blue.strong nivel de datos], conocido también con los nombres de nivel de base de datos, nivel de acceso a datos o #[em backend], es donde se almacena y gestiona la información procesada por el #[em software] o aplicación, por lo general son sistemas de gestión de base de datos como  Microsoft SQL Server, MySQL, MariaDB, Oracle, PostgreSQL,  DB2, Informix  o un  servidor de bases de datos NoSQL como MongoDB, Cassandra o CouchDB.
-        .hr_line(data-aos="fade")
+        
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="flip-left")
@@ -222,7 +222,7 @@
     .bg_img_02
       .row.justify-content-center.mb-5
         .col-lg-5.col-8
-          .titulo-sexto.color-acento-contenido(data-aos="fade")
+          .titulo-sexto.color-acento-botones(data-aos="fade")
             h5 Figura 7.
             span Arquitectura Monolítica
 
@@ -230,8 +230,8 @@
             img(src="@/assets/curso/temas/t6/t6_08.svg", alt="alt")
             figcaption.mt-3  Nota. SENA (2022). Unidades de #[em software] en la arquitectura monolítica.
 
-      .tabla-cst 
-        table.cstm_table_01.mb-5(data-aos="zoom-in")
+      .tabla-a.tabla-cst.mb-5
+        table.cstm_table_01(data-aos="zoom-in")
           thead
             tr.text-center
               th Características
@@ -300,7 +300,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        .titulo-sexto.color-acento-contenido(data-aos="fade")
+        .titulo-sexto.color-acento-botones(data-aos="fade")
           h5 Figura 8.
           span Características de la Arquitectura SOA   
 
@@ -308,8 +308,8 @@
           img(src="@/assets/curso/temas/t6/t6_09.svg", alt="alt")
           figcaption.mt-3 Nota. SENA (2022). Funcionamiento de la arquitectura orientada a servicios (SOA). 
 
-    .tabla-cst 
-      table.cstm_table_01.mb-5(data-aos="zoom-in")
+    .tabla-a.tabla-cst.mb-5 
+      table.cstm_table_01(data-aos="zoom-in")
         thead
           tr.text-center
             th Características
@@ -372,7 +372,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        .titulo-sexto.color-acento-contenido(data-aos="fade")
+        .titulo-sexto.color-acento-botones(data-aos="fade")
           h5 Figura 9.
           span Arquitectura MVC
 
@@ -401,8 +401,8 @@
             .p-4
               p.text-center.mb-0 Es la interfaz, por medio de la cual interactúa el usuario, está compuesta por la información que se envía.
               
-    .tabla-cst 
-      table.cstm_table_01.mb-5(data-aos="zoom-in")
+    .tabla-a.tabla-cst.mb-5
+      table.cstm_table_01(data-aos="zoom-in")
         thead
           tr.text-center
             th Modelo

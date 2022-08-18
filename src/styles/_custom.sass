@@ -78,6 +78,18 @@
 .crd--gray
   background-color: #e6e6e6
 
+.numb_02   
+  &::before
+    content: attr(data-nb)   
+    position: absolute
+    top: 0
+    left: -5%
+    width: 100%
+    height: 100%
+    color: #DFE2E5
+    font-size: 18pt
+    font-weight: 700
+
 // txt utilities // -----------------------------------------------------
 
 .cstmH3
@@ -95,6 +107,9 @@
 
 .txt--blue
   color: #5573C6
+
+.txt--mint
+  color: #4ADBD1
 
 .txt--orange
   color: $color-acento-botones !important
@@ -147,8 +162,11 @@
   border-radius: 9pt
 .brd--rad_02
   border-radius: 20pt
+
 .top--negMargin
   margin-top: -6rem
+  @media (max-width: 990px)
+    margin-top: 0
 
 .crd
   height: 100%
@@ -252,7 +270,7 @@
 //// Slider F
 .cstmSlyderF
   .horizontal-scroll__wrapper[data-v-e258dbfc]
-    padding: 2rem 0.5rem
+    padding: 2rem 0.6rem
   .horizontal-scroll[data-v-e258dbfc]
     align-items: stretch !important 
 
@@ -286,17 +304,23 @@
 ////// Tablas
 .cstm_table_01  
   thead
+    border-top: none
     tr
       background-color: #B0C0D2
       th 
         font-size: 1em
 
-///// Linea de tiempo D
-.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  color: white
-      
-  
+///// Linea de tiempo D      
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+    background-color: #EFD198
 
 
+//// Custom tabs
+.tabs-c__tab--active
+  font-weight: 700
 
-  
+.tabs-c.color-primario .tabs-c__tab--active
+  border-bottom-color: #4ADBD1 !important
+  &::before
+    border-top-color: #4ADBD1

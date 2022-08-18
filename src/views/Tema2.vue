@@ -11,7 +11,7 @@
       figure(data-aos="zoom-in")
         img(src="@/assets/curso/temas/t2/t2_01.png", alt="alt")
       .row.justify-content-center.top--negMargin(data-aos="fade").mb-5
-        .col-10
+        .col-lg-10
           .crd.bg--gray.shadow.brd--rad_01.p-4
             p.mb-0 #[span.txt--blue.strong Maida y Pacienzia (2015)] plantean que la educción de requisitos también conocida como #[em elicitation], consiste en hallar e identificar los requisitos que deben satisfacer una aplicación o #[em software], en palabras sencillas es el modo en que se deben obtener estos requisitos. Es una actividad inherente a la ingeniería de #[em software] y forma parte de las metodologías ágiles, como una antesala al análisis de requisitos. Algunos procesos para la identificación de requisitos son:         
 
@@ -22,41 +22,49 @@
         .col-lg-8(data-aos="fade")
           SlyderF.cstmSlyderF(columnas="col-lg-6 col-xl-4")
             .crd.bg--white.brd--rad_02.shadow.p-4
+              .numb_02(data-nb="01")
               figure.mb-4
                 img(src="@/assets/curso/temas/t2/t2_03.svg", alt="alt").img90.m-auto               
               p.text-center Definir la pregunta de investigación. 
 
             .crd.bg--white.brd--rad_02.shadow.p-4
+              .numb_02(data-nb="02")
               figure.mb-4
                 img(src="@/assets/curso/temas/t2/t2_04.svg", alt="alt").img90.m-auto               
               p.text-center Alcance de la revisión.  
 
             .crd.bg--white.brd--rad_02.shadow.p-4
+              .numb_02(data-nb="03")
               figure.mb-4
                 img(src="@/assets/curso/temas/t2/t2_05.svg", alt="alt").img90.m-auto               
               p.text-center Criterios de exclusión e inclusión.   
 
             .crd.bg--white.brd--rad_02.shadow.p-4
+              .numb_02(data-nb="04")
               figure.mb-4
                 img(src="@/assets/curso/temas/t2/t2_06.svg", alt="alt").img90.m-auto               
               p.text-center Conducta de búsqueda.  
 
             .crd.bg--white.brd--rad_02.shadow.p-4
+              .numb_02(data-nb="05")
               figure.mb-4
                 img(src="@/assets/curso/temas/t2/t2_07.svg", alt="alt").img90.m-auto               
               p.text-center Selección de trabajos primarios.  
 
             .crd.bg--white.brd--rad_02.shadow.p-4
+              .numb_02(data-nb="06")
               figure.mb-4
                 img(src="@/assets/curso/temas/t2/t2_08.svg", alt="alt").img90.m-auto               
               p.text-center Definición de criterios de análisis.  
 
             .crd.bg--white.brd--rad_02.shadow.p-4
+              .numb_02(data-nb="07")
               figure.mb-4
                 img(src="@/assets/curso/temas/t2/t2_09.svg", alt="alt").img90.m-auto               
               p.text-center Esquema de caracterización.  
 
             .crd.bg--white.brd--rad_02.shadow.p-4
+              .numb_02(data-nb="08")
               figure.mb-4
                 img(src="@/assets/curso/temas/t2/t2_10.svg", alt="alt").img90.m-auto               
               p.text-center Análisis de resultados. 
@@ -127,7 +135,7 @@
 
     .row.justify-content-center(data-aos="zoom-in")
       .col-lg-8
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-botones
           h5 Figura 2.
           span Fases de la educción de requisitos 
         figure

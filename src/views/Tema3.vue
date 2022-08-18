@@ -24,7 +24,7 @@
     .bg_img_02
       .row.justify-content-center.mb-5
         .col-lg-10
-          .titulo-sexto.color-acento-contenido
+          .titulo-sexto.color-acento-botones
             h5 Figura 3.
             span Versiones del producto final 
           figure(data-aos="zoom-in")
@@ -36,7 +36,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/t3/t3_03.jpg')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Aunque no es obligatorio cumplir rigurosamente con ciertas reglas o ítems, se han identificado algunas actividades que permiten de una manera incremental y efectiva capturar las necesidades del negocio, que se listan a continuación:   
+          p.strong.mb-0 Aunque no es obligatorio cumplir rigurosamente con ciertas reglas o ítems, se han identificado algunas actividades que permiten de una manera incremental y efectiva capturar las necesidades del negocio, que se listan a continuación:   
 
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in")
         .row.justify-content-center(titulo="Analizar el dominio del problema")
@@ -147,7 +147,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0            
-              p.text-white.mb-0 Para determinar los requisitos del cliente, las empresas pueden investigar su mercado objetivo comprendiendo sus deseos y necesidades, también pueden adoptar un enfoque directo solicitando a sus clientes comentarios a través de encuestas, sondeos o redes sociales. 
+              p.strong.text-white.mb-0 Para determinar los requisitos del cliente, las empresas pueden investigar su mercado objetivo comprendiendo sus deseos y necesidades, también pueden adoptar un enfoque directo solicitando a sus clientes comentarios a través de encuestas, sondeos o redes sociales. 
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/infografia.pdf')" target="_blank")
                 span Descargar
