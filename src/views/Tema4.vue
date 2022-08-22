@@ -18,7 +18,7 @@
               figure
                 img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
             .col
-              p.mb-0 Los #[em stakeholders] son las partes interesadas en el proyecto, hacen referencia a todas las personas que se relacionan con las actividades y decisiones de la empresa para la cual se hará la solución informática; estos generan un papel fundamental en la elicitacion, especificación y validación de requisitos del proyecto.
+              p.mb-0 Los #[em stakeholders] son las partes interesadas en el proyecto, hacen referencia a todas las personas que se relacionan con las actividades y decisiones de la empresa para la cual se hará la solución informática; estos generan un papel fundamental en la elicitación, especificación y validación de requisitos del proyecto.
           .cajon.cjn--yellow
             p.strong Los  #[em stakeholders] pueden ser internos y externos,  y se debe evaluar qué función o relación tienen con el negocio. Sin su aporte, los desarrolladores están trabajando a partir de una lista incompleta de requisitos.
 

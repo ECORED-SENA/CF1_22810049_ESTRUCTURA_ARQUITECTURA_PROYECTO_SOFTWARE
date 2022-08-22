@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 En el siguiente diagrama se resumen los aspectos principales desarrollados con este material de formación.
+    p.mb-5 En el siguiente diagrama se resumen los aspectos principales desarrollados en este componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5

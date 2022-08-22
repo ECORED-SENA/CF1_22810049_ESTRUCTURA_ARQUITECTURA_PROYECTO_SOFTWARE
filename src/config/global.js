@@ -133,7 +133,7 @@ export default {
     {
       tema: 'Definir el tipo de arquitectura.',
       referencia:
-        'Garlan, D., & Shaw, M. (1994). An Introduction to <em>software</em> Architecture. School of Computer Science, Carnegie Mellon University.',
+        'Garlan, D., & Shaw, M. (1994). <em>An Introduction to software Architecture</em>. School of Computer Science, Carnegie Mellon University.',
       tipo: 'Articulo web',
       descarga: '/downloads/intro_softarch.pdf',
     },
@@ -171,7 +171,7 @@ export default {
     },
     {
       referencia:
-        'Garlan, D., & Shaw, M. (1994). An Introduction to <em>software</em> Architecture. School of Computer Science, Carnegie Mellon University.',
+        'Garlan, D., & Shaw, M. (1994). <em>An Introduction to software Architecture</em>. School of Computer Science, Carnegie Mellon University.',
       link: 'http://sunnyday.mit.edu/16.355/intro_softarch.pdf ',
     },
     {

@@ -41,7 +41,7 @@
                   img(src="@/assets/curso/temas/t5/t5_03.svg", alt="alt").img115
               .col
                 h5.text-white.pt-2 Requerimientos funcionales del usuario
-                p.text-white.mb-0 Son los servicios o funciones que la aplicación debe hacer y que interactúan directamente con el usuario; como son las  interfaces, diseños menú, imágenes entre otras.
+                p.text-white.mb-0 Son los servicios o funciones que la aplicación debe hacer y que interactúan directamente con el usuario; como son las  interfaces, diseños menú, imágenes, entre otras.
 
       .row.justify-content-around
         .col-lg-5(data-aos="fade")

@@ -27,7 +27,7 @@
               .crd.crd_custom_01.shadow(data-number="02")
                 figure.mb-3
                   img(src="@/assets/curso/temas/t1/t1_03.svg", alt="alt").img75
-                p.mb-0 Metodologías agiles 
+                p.mb-0 Metodologías ágiles 
 
         .col-lg-4(data-aos="zoom-in").d-none.d-lg-flex
           figure
@@ -253,7 +253,13 @@
                   img(src="@/assets/curso/temas/t1/t1_18.svg", alt="alt").img145.m-auto
                 p.text-center Probar
 
+    
+
     p.strong(data-aos="fade").mb-5 Algunas funciones claves que caracterizan a estas metodologías son:
+
+    .titulo-sexto.color-acento-botones
+      h5 Figura 1.
+      span Tipos de metodologías Ágiles
 
     .row.justify-content-center(data-aos="fade")
       .col-lg-7

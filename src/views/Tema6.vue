@@ -19,7 +19,7 @@
         .col-auto
           h3.cstmH3 Arquitectura de descomposición modular
 
-      p.mb-5(data-aos="fade") También conocida como modularización, consiste en la descomposición de un sistema en módulos más simples, con el fin de resolverlos de manera fácil y sencilla como indica la imagen. Cada sub modulo es una tarea completa la cual se programa de manera independiente, a esto se lo conoce como refinamiento por pasos:
+      p.mb-5(data-aos="fade") También conocida como modularización, consiste en la descomposición de un sistema en módulos más simples, con el fin de resolverlos de manera fácil y sencilla como indica la imagen. Cada submódulo es una tarea completa la cual se programa de manera independiente, a esto se lo conoce como refinamiento por pasos:
 
       .row.justify-content-center.mb-5
         .col-lg-8
@@ -81,17 +81,17 @@
       .col-auto
         h3.cstmH3 Arquitectura cliente-servidor
 
-    p(data-aos="fade") De acuerdo a #[span.txt--blue.strong Gar lan y Shaw (1994)], #[span.strong este tipo de arquitectura consiste en un diseño, en el cual las tareas se reparten entre los servidores  “proveedores de recursos o servicios”,  y los clientes  “cada uno de los usuarios”.]  Un cliente ejecuta peticiones a otro programa, el servidor y es el que da la respuesta, en este arquetipo la capacidad de proceso está repartida entre los clientes y los servidores. #[span.strong Algunos ejemplos que utilizan este modelo son: World Wide Web, correo electrónico, servidor de impresión (ver figura 6).]
+    p(data-aos="fade") De acuerdo a #[span.txt--blue.strong Gar lan y Shaw (1994)], #[span.strong este tipo de arquitectura consiste en un diseño, en el cual las tareas se reparten entre los servidores  “proveedores de recursos o servicios”,  y los clientes  “cada uno de los usuarios”.]  Un cliente ejecuta peticiones a otro programa, el servidor y es el que da la respuesta, en este arquetipo la capacidad de proceso está repartida entre los clientes y los servidores. #[span.strong Algunos ejemplos que utilizan este modelo son: #[em World Wide Web], correo electrónico, servidor de impresión (ver figura 6).]
 
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-botones(data-aos="fade")
           h5 Figura 6.
-          span Arquitectura cliente servidor
+          span Arquitectura cliente-servidor
 
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/t6/t6_03.svg", alt="alt")
-          figcaption.mt-3  Nota. SENA.  (2022). Representación gráfica de la arquitectura cliente servidor. 
+          figcaption.mt-3  Nota. SENA.  (2022). Representación gráfica de la arquitectura cliente-servidor. 
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="flip-left")
@@ -269,7 +269,7 @@
                     | Autónomo.
                   li.mb-3
                     i.fa-li.fas.fa-caret-right.txt--orange02
-                    | #[em performance].
+                    | #[em Performance].
                   li
                     i.fa-li.fas.fa-caret-right.txt--orange02
                     | Fácil de probar.
@@ -366,7 +366,7 @@
 
     .row.mb-3(data-aos="fade")
       .col-auto
-        h3.cstmH3 Arquitectura MVC (modelo vista controlador)
+        h3.cstmH3 Arquitectura MVC (Modelo Vista Controlador)
 
     p.mb-5(data-aos="fade") #[span.strong Es un tipo de arquitectura de #[em software] que separa los datos de una solución de #[em software], la interfaz de usuario, y la lógica de control en tres componentes diferentes]. Este modelo muy consolidado, ha demostrado su validez a lo largo del tiempo en todo tipo de aplicaciones y sobre muchos lenguajes y plataformas de desarrollo.  #[span.txt--blue.strong En el gráfico a continuación se pueden observar los tres componentes claves de esta arquitectura (ver figura 9)].
 
@@ -439,10 +439,10 @@
               ul.fa-ul.mb-0
                 li.mb-3
                   i.fa-li.fas.fa-caret-right.txt--orange02
-                  | Recibir los eventos de entrada contiene reglas de gestión de eventos.   ^
+                  | Recibir los eventos de entrada contiene reglas de gestión de eventos.
 
     .crd--gray.p-4.mb-5
-      p.text-center.mb-0 Para ampliar la información sobre arquitectura de #[em software], consultar en el material complementario el artículo #[em "An introduction to Software"].       
+      p.text-center.mb-0 Para ampliar la información sobre arquitectura de #[em software], consultar en el material complementario el artículo #[em "An introduction to Software Architecture"].       
 
     .bg_img_02
       .row.mb-3(data-aos="fade")
