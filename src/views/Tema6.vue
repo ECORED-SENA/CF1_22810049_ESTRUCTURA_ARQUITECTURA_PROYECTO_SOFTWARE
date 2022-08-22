@@ -159,7 +159,7 @@
         ul.fa-ul.mb-0(data-aos="fade")
           li
             i.fa-li.fas.fa-check-circle.txt--mint
-            | #[span.txt--blue.strong nivel de datos], conocido también con los nombres de nivel de base de datos, nivel de acceso a datos o #[em backend], es donde se almacena y gestiona la información procesada por el #[em software] o aplicación, por lo general son sistemas de gestión de base de datos como  Microsoft SQL Server, MySQL, MariaDB, Oracle, PostgreSQL,  DB2, Informix  o un  servidor de bases de datos NoSQL como MongoDB, Cassandra o CouchDB.
+            | #[span.txt--blue.strong El nivel de datos], conocido también con los nombres de nivel de base de datos, nivel de acceso a datos o #[em backend], es donde se almacena y gestiona la información procesada por el #[em software] o aplicación, por lo general son sistemas de gestión de base de datos como  Microsoft SQL Server, MySQL, MariaDB, Oracle, PostgreSQL,  DB2, Informix  o un  servidor de bases de datos NoSQL como MongoDB, Cassandra o CouchDB.
         
 
     .row.justify-content-center.mb-5
