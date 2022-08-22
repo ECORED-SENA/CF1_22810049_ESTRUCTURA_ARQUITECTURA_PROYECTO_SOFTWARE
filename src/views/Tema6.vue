@@ -376,30 +376,33 @@
           h5 Figura 9.
           span Arquitectura MVC
 
-        ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
+        ImagenInfografica.color-acento-botones(data-aos="zoom-in")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/t6/t6_10.svg', alt='')
-              figcaption.mt-3 Nota. SENA (2022). Estructura de la arquitectura. Modelo Vista Controlador (MVC).
+              
 
-          .crd.bg--white.brd--rad_01.shadow(x="98%" y="14.5%" numero="+")
+          .crd.bg--white.brd--rad_01.shadow(x="98%" y="17%" numero="+")
             .bg_grad_Blue01.shadow.brd--top.p-3
               h5.text-white.text-center.mb-0 Controlador
             .p-4
               p.text-center.mb-0 Actúa como intermediario entre el Modelo y la Vista, su función es gestionar el flujo de información entre estos y las transformaciones para adaptar los datos a las necesidades de cada uno.
 
-          .crd.bg--white.brd--rad_01.shadow(x="98%" y="72%" numero="+")
+          .crd.bg--white.brd--rad_01.shadow(x="98%" y="83%" numero="+")
             .bg_grad_Blue01.shadow.brd--top.p-3
               h5.text-white.text-center.mb-0 Modelo
             .p-4
               p.text-center.mb-0 Representa   los datos que maneja el sistema, la lógica de negocio, y los mecanismos de persistencia.
 
 
-          .crd.bg--white.brd--rad_01.shadow(x="31%" y="68%" numero="+")
+          .crd.bg--white.brd--rad_01.shadow(x="31%" y="79%" numero="+")
             .bg_grad_Blue01.shadow.brd--top.p-3
               h5.text-white.text-center.mb-0 Vista
             .p-4
               p.text-center.mb-0 Es la interfaz, por medio de la cual interactúa el usuario, está compuesta por la información que se envía.
+
+      .col-lg-8
+        figcaption.mt-3 Nota. SENA (2022). Estructura de la arquitectura. Modelo Vista Controlador (MVC).
               
     .tabla-a.tabla-cst.mb-5
       table.cstm_table_01(data-aos="zoom-in")
